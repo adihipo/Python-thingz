@@ -1,7 +1,48 @@
+div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ul {
+  padding: 40px;
+  background-color: lightpink;
+  border-radius: 20px;
+  list-style-type: none;
+}
+
+li {
+  padding: 5px;
+}
+
 li a {
-  color: green;
+  color: white;
+  max-width: 50%;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: blueviolet;
+}
+
+p, li a {
+  font-size: 40px;
+}
+
+p {
+  margin-left: -10px;
+  margin-top: -10px;
 }
 
 body {
-  background: white url("images/doggie.gif") no-repeat;
+  background: lightslategray;
+  font-family: 'Amatic SC', cursive;
+}
+
+.doggie {
+  background: url("images/doggie.gif") round;
+  position: absolute;
+  width: 30%;
+  height: 400px;
+  border-radius: 10px;
 }
